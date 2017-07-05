@@ -9841,7 +9841,7 @@ var Frame = function (_React$Component) {
         _react2.default.createElement(
           'div',
           { className: 'calculator-title' },
-          'peter\'s react Calculator'
+          'peter\'s react calculator'
         ),
         _react2.default.createElement(_screen2.default, { question: this.state.question, answer: this.state.answer }),
         _react2.default.createElement(
@@ -9987,9 +9987,9 @@ var Button = function Button(props) {
 
 // describe our expected props types
 Button.propTypes = {
-  type: _react2.default.PropTypes.string.isRequired,
+  label: _react2.default.PropTypes.string.isRequired,
   handleClick: _react2.default.PropTypes.func.isRequired,
-  label: _react2.default.PropTypes.string.isRequired
+  type: _react2.default.PropTypes.string.isRequired
 
   // export our button component.
 };exports.default = Button;
@@ -10094,14 +10094,10 @@ __webpack_require__(84);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import our external css file
-
 // using the render method, we will mount this node into our DOM (html file) on the element with
 // id of 'app'
-// import ReactDOM package
 _reactDom2.default.render(_react2.default.createElement(_frame2.default, null), // mount our frame component
-document.getElementById('app')); // import our frame component
-// import React package
+document.getElementById('app'));
 
 /***/ }),
 /* 89 */
