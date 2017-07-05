@@ -1,10 +1,11 @@
-import React from 'react'; // import React package
-import ReactDOM from 'react-dom'; // import ReactDOM package
-import './styles/main.css'; // import our external css file
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Frame from './components/frame';
+import './styles/main.css';
 
 // using the render method, we will mount this node into our DOM (html file) on the element with
 // id of 'app'
 ReactDOM.render(
-  <div>Hello webpack</div>,
+  <Frame />, // mount our frame component
   document.getElementById('app')
 );
